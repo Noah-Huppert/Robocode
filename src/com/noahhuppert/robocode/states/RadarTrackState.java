@@ -1,5 +1,6 @@
 package com.noahhuppert.robocode.states;
 
+import com.noahhuppert.robocode.Curious;
 import com.noahhuppert.robocode.helpers.Headings;
 import robocode.Event;
 import robocode.Robot;
@@ -19,6 +20,7 @@ public class RadarTrackState extends RobotState {
 
     @Override
     public void onActive(Robot robot) {
+        robot.out.println("TRACK");
         if(mostRecentScan != null){
             robot.out.println("TRACKING: " + mostRecentScan.getHeading());
             Headings.setRadarHeading(mostRecentScan.getHeading(), robot);
@@ -26,9 +28,14 @@ public class RadarTrackState extends RobotState {
     }
 
     @Override
-    public void handleEvent(Event event, String eventType, Robot robot) {
+    public void handleEvent(Event event, String eventType, Curious robot) {
         if(eventType.equals(RobotState.EVENT_SCANNED_ROBOT)){
             mostRecentScan = (ScannedRobotEvent) event;
         }
+    }
+
+    @Override
+    public void reset() {
+        mostRecentScan = null;
     }
 }

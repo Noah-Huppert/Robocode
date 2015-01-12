@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d92290f-274f-45fd-8dba-f35b7fef26b9" name="Default" comment="" />
+    <list default="true" id="8d92290f-274f-45fd-8dba-f35b7fef26b9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/robocode/Curious.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/robocode/Curious.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarSweepState.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarSweepState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarTrackState.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarTrackState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RobotState.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RobotState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/robocode/helpers/StateManager.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/robocode/helpers/StateManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/noahhuppert/robocode/TheBestRobot.java" afterPath="$PROJECT_DIR$/src/com/noahhuppert/robocode/TheBestRobot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robocode.iml" afterPath="$PROJECT_DIR$/robocode.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="robocode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,45 +35,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Curious.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/Curious.java">
+      <file leaf-file-name="TheBestRobot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/TheBestRobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="990">
-              <caret line="57" column="93" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarTrackState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarTrackState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-              <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RadarSweepState.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarSweepState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4186893" vertical-offset="0" max-vertical-offset="824">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.6541262" vertical-offset="676" max-vertical-offset="1725">
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -79,14 +64,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/TheBestRobot.java" />
-        <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/TheBestRobot.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/RobotState.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/helpers/Headings.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/helpers/StateManager.java" />
-        <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RobotState.java" />
-        <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarTrackState.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/Curious.java" />
+        <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RobotState.java" />
         <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarSweepState.java" />
+        <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarTrackState.java" />
+        <option value="$PROJECT_DIR$/src/com/noahhuppert/robocode/TheBestRobot.java" />
       </list>
     </option>
   </component>
@@ -95,7 +80,7 @@
     <option name="width" value="1920" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -118,6 +103,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,7 +186,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -219,6 +204,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -497,9 +483,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -519,7 +505,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -527,6 +515,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/Curious.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="990">
+          <caret line="57" column="93" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarTrackState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="570">
+          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarSweepState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/Curious.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1560">
@@ -553,8 +573,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -573,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/TheBestRobot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.309466" vertical-offset="91" max-vertical-offset="1620">
-          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/helpers/Headings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25485438" vertical-offset="0" max-vertical-offset="824">
@@ -592,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1126408" vertical-offset="0" max-vertical-offset="2310">
           <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6946183" vertical-offset="645" max-vertical-offset="1590">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,25 +619,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1126408" vertical-offset="0" max-vertical-offset="4230">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/helpers/StateManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/Curious.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72694176" vertical-offset="91" max-vertical-offset="960">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RobotState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4186893" vertical-offset="0" max-vertical-offset="824">
-          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="1065">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -635,33 +634,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarTrackState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.47330096" vertical-offset="0" max-vertical-offset="824">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/Curious.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="990">
-          <caret line="57" column="93" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RadarSweepState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4186893" vertical-offset="0" max-vertical-offset="824">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.5279126" vertical-offset="0" max-vertical-offset="824">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/states/RobotState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4368932" vertical-offset="0" max-vertical-offset="824">
+          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/helpers/StateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12742719" vertical-offset="75" max-vertical-offset="1185">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../robocode/libs/robocode.jar!/robocode/Robot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.436796" vertical-offset="1961" max-vertical-offset="8205">
+          <caret line="191" column="9" selection-start-line="186" selection-start-column="8" selection-end-line="191" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/noahhuppert/robocode/TheBestRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6541262" vertical-offset="676" max-vertical-offset="1725">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

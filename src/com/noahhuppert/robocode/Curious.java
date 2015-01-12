@@ -4,26 +4,25 @@ import com.noahhuppert.robocode.helpers.StateManager;
 import com.noahhuppert.robocode.states.RadarSweepState;
 import com.noahhuppert.robocode.states.RadarTrackState;
 import com.noahhuppert.robocode.states.RobotState;
-import robocode.HitByBulletEvent;
-import robocode.HitWallEvent;
-import robocode.Robot;
-import robocode.ScannedRobotEvent;
+import robocode.*;
 
 import java.util.ArrayList;
 
 /**
  * Created by block7 on 1/8/15.
  */
-public class Curious extends Robot{
+public class Curious extends AdvancedRobot{
+    public StateManager stateManager = new StateManager();
+
     @Override
     public void run() {
         super.run();
 
         //State Setup
-        StateManager.addState(new RadarSweepState());
-        StateManager.addState(new RadarTrackState());
+        stateManager.addState(new RadarSweepState());
+        stateManager.addState(new RadarTrackState());
 
-        StateManager.activateState(StateManager.STATE_DEFAULT);
+        stateManager.activateState(StateManager.STATE_DEFAULT, this);
 
         //Robot Setup
         setAdjustGunForRobotTurn(true);
@@ -32,29 +31,35 @@ public class Curious extends Robot{
 
         //Main Loop
         while(true){
-            RobotState activeState = StateManager.getActiveState();
+            out.println("MAIN");
+
+            RobotState activeState = stateManager.getActiveState();
             if(activeState != null) {
-                StateManager.getActiveState().onActive(this);
+                stateManager.getActiveState().onActive(this);
+            } else{
+                stateManager.activateState(StateManager.STATE_DEFAULT, this);
             }
         }
     }
+
+
 
     /* Events */
     @Override
     public void onHitByBullet(HitByBulletEvent event) {
         super.onHitByBullet(event);
-        StateManager.getActiveState().handleEvent(event, RobotState.EVENT_HIT_BY_BULLET, this);
+        stateManager.getActiveState().handleEvent(event, RobotState.EVENT_HIT_BY_BULLET, this);
     }
 
     @Override
     public void onHitWall(HitWallEvent event) {
         super.onHitWall(event);
-        StateManager.getActiveState().handleEvent(event, RobotState.EVENT_HIT_WALL, this);
+        stateManager.getActiveState().handleEvent(event, RobotState.EVENT_HIT_WALL, this);
     }
 
     @Override
     public void onScannedRobot(ScannedRobotEvent event) {
         super.onScannedRobot(event);
-        StateManager.getActiveState().handleEvent(event, RobotState.EVENT_SCANNED_ROBOT, this);
+        stateManager.getActiveState().handleEvent(event, RobotState.EVENT_SCANNED_ROBOT, this);
     }
 }

@@ -1,13 +1,14 @@
 package com.noahhuppert.robocode;
 
 import robocode.*;
+import robocode.Robot;
 
 import java.awt.*;
 
 /**
  * Created by block7 on 1/5/15.
  */
-public class TheBestRobot extends AdvancedRobot {
+public class TheBestRobot extends Robot {
     private boolean scanningForRobot = true;
     private double scannedRobotBearing = 0;
 
@@ -44,14 +45,21 @@ public class TheBestRobot extends AdvancedRobot {
                 targetingRobot = false;
                 firingAtRobot = true;
             } else if(firingAtRobot){
-                fire(1);
+                fire(2);
+                setBulletColor(Color.GREEN);
                 scanningForRobot = true;
             }
 
-            if(evading) {
+            if(unHittingWall){
+                setBodyColor(Color.GREEN);
+            } else if(evading){
                 setBodyColor(Color.RED);
-            }else if(scanningForRobot){
+            } else if(scanningForRobot){
                 setBodyColor(Color.CYAN);
+            } else if(targetingRobot){
+                setBodyColor(Color.BLACK);
+            } else if(firingAtRobot){
+                setBodyColor(Color.YELLOW);
             }
         }
     }
@@ -82,6 +90,8 @@ public class TheBestRobot extends AdvancedRobot {
         unHittingWall = true;
         unHitWallDirection = event.getBearing() + 90;
     }
+
+
 
     @Override
     public void onScannedRobot(ScannedRobotEvent event) {

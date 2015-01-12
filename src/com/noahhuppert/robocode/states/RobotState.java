@@ -1,5 +1,6 @@
 package com.noahhuppert.robocode.states;
 
+import com.noahhuppert.robocode.Curious;
 import robocode.Event;
 import robocode.Robot;
 
@@ -21,7 +22,8 @@ public abstract class RobotState {
 
     /* Actions */
     public abstract void onActive(Robot robot);
-    public abstract void handleEvent(Event event, String eventType, Robot robot);
+    public abstract void handleEvent(Event event, String eventType, Curious robot);
+    public abstract void reset();
 
     /* Getters */
     public String getName() {

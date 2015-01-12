@@ -1,5 +1,6 @@
 package com.noahhuppert.robocode.states;
 
+import com.noahhuppert.robocode.Curious;
 import com.noahhuppert.robocode.helpers.StateManager;
 import robocode.Event;
 import robocode.Robot;
@@ -11,6 +12,8 @@ import robocode.ScannedRobotEvent;
 public class RadarSweepState extends RobotState {
     public static final String NAME = "STATE_ROBOT_SWEEP";
 
+    private boolean switching = false;
+
     public RadarSweepState() {
         super(NAME);
     }
@@ -21,11 +24,17 @@ public class RadarSweepState extends RobotState {
     }
 
     @Override
-    public void handleEvent(Event event, String eventType, Robot robot) {
-        if(eventType.equals(RobotState.EVENT_SCANNED_ROBOT)){
-            robot.out.println("SWITCHING");
+    public void handleEvent(Event event, String eventType, Curious robot) {
+        if(eventType.equals(RobotState.EVENT_SCANNED_ROBOT) && !switching){
+            robot.out.println("     SSSS");
+            switching = true;
             ScannedRobotEvent scannedRobotEvent = (ScannedRobotEvent) event;
-            StateManager.activateState(RadarTrackState.NAME);
+            robot.stateManager.activateState(RadarTrackState.NAME, robot);
         }
+    }
+
+    @Override
+    public void reset() {
+        switching = false;
     }
 }

@@ -2,6 +2,7 @@ package com.noahhuppert.robocode.helpers;
 
 import com.noahhuppert.robocode.states.RadarSweepState;
 import com.noahhuppert.robocode.states.RobotState;
+import robocode.Robot;
 
 import java.util.ArrayList;
 
@@ -9,11 +10,11 @@ import java.util.ArrayList;
  * Created by block7 on 1/9/15.
  */
 public class StateManager {
-    public static ArrayList<RobotState> states = new ArrayList<RobotState>();
+    public ArrayList<RobotState> states = new ArrayList<RobotState>();
     public static final String STATE_DEFAULT = RadarSweepState.NAME;
 
     /* Getters */
-    public static RobotState getState(String stateName){
+    public RobotState getState(String stateName){
         RobotState robotState = null;
 
         for(RobotState state : states){
@@ -25,7 +26,7 @@ public class StateManager {
         return robotState;
     }
 
-    public static RobotState getActiveState(){
+    public RobotState getActiveState(){
         RobotState activeState = null;
 
         for(RobotState state : states){
@@ -38,21 +39,36 @@ public class StateManager {
     }
 
     /* Setters */
-    public static void addState(RobotState robotState){
+    public void addState(RobotState robotState){
         if(getState(robotState.getName()) == null){
             states.add(robotState);
         }
     }
 
-    public static void activateState(String stateName){
+    public void activateState(String stateName, Robot robot){
+        robot.out.println("     1");
+
         RobotState activeState = getActiveState();
         if(activeState != null){
             activeState.setActive(false);
+            activeState.reset();
+
+            robot.out.println("     A1");
         }
+
+
+        robot.out.println("     2");
 
         RobotState toActivateState = getState(stateName);
         if(toActivateState != null) {
-            getState(stateName).setActive(true);
+            toActivateState.setActive(true);
+            toActivateState.reset();
+
+
+            robot.out.println("     A2");
         }
+
+
+        robot.out.println("     3");
     }
 }
